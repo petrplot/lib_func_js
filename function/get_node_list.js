@@ -1,3 +1,4 @@
+//example of values passed to a function as arguments
 const additionalCharacters = [1, 2 ,3 ,4, 5, 6,7, 8] 
 let nameSelector = 'name_class '
 const typeSelectorCurrent = 'class'
