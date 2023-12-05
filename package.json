@@ -1,0 +1,15 @@
+{
+  "name": "lib_func_js",
+  "version": "1.0.0",
+  "description": "library of frequently used functions and classes in js",
+  "main": "/function",
+  "scripts": {
+    "start": "node --inspect function/password_hashing.js"
+  },
+  "keywords": [],
+  "author": "Petr PLotnikov",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
