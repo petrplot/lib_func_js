@@ -2,6 +2,7 @@ const crypto = require('crypto');
 require('dotenv').config()
 const {env} = require('node:process');
 
+
 async function passHashing(password, salt){
     if (salt === '') {
         throw new Error('the salt cannot be an empty string') 
